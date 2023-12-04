@@ -1,0 +1,13 @@
+:root {
+  /* Font colors */
+  --color-white: #fff;
+  --color-black: #000;
+  --color-primary: #1E80C1;
+  --color-grey: #dfdfdf;
+
+  /* Background colors */
+  --bg-white: #fff;
+  --bg-black: #000;
+  --bg-primary: #1E80C1;
+  --bg-grey: #dfdfdf;
+}
