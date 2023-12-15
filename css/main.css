@@ -34,15 +34,15 @@ body {
 }
 
 @keyframes moveBox {
-  0%{
+  0% {
     top: 0%;
     transform: scale(0) translate(-50px, -50%) rotate(-80deg);
   }
-  70%{ 
+  70% {
     top: 50%;
     transform: scale(0) translate(-50px, -50%) rotate(0deg);
   }
-  100%{
+  100% {
     top: 50%;
     transform: scale(1) translate(-50px, -50%) rotate(45deg);
   }
@@ -86,7 +86,7 @@ body {
   }
 }
 
-#car-logos{
+#car-logos {
   padding: 50px 0;
   background-color: var(--bg-primary);
 }
@@ -95,11 +95,11 @@ body {
   width: 100%;
   transition: transform 0.2s ease, filter 0.2s ease;
 }
-#car-logos img.car-logo:hover{
+#car-logos img.car-logo:hover {
   transform: scale(1.1);
   filter: drop-shadow(2mm -3mm 1mm var(--bg-primary-dark));
 }
-#car-logos h3{
+#car-logos h3 {
   color: var(--color-white);
   text-transform: uppercase;
 }
