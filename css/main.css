@@ -6,6 +6,7 @@
 body {
   background-color: var(--bg-white);
   overflow-x: hidden;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .navbar .navbar-collapse {
@@ -102,4 +103,78 @@ body {
 #car-logos h3 {
   color: var(--color-white);
   text-transform: uppercase;
+}
+
+#car-card-3 {
+  padding: 50px 0;
+  background-color: var(--bg-primary);
+}
+
+.cc3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.cc3 .cc3-text {
+  text-align: center;
+  color: var(--color-grey);
+}
+
+.cc3 .cc3-text h4 {
+  text-transform: uppercase;
+}
+
+.cc3 .cc3-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 100px;
+  padding: 50px 0;
+}
+
+.cc3 .cc3-cards .cc3-cards-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+  gap: 20px;
+}
+
+.cc3 .cc3-cards .cc3-cards-item .cc3-cards-item-icon {
+  width: 100px;
+  height: 100px;
+  background-color: var(--bg-white);
+  border-radius: 20px;
+  box-shadow: var(--bs-box-shadow);
+  transition: transform 500ms;
+}
+
+.cc3 .cc3-cards .cc3-cards-item .cc3-cards-item-text {
+  text-align: center;
+}
+
+.cc3 .cc3-cards .cc3-cards-item .cc3-cards-item-text p {
+  margin: 0;
+}
+
+.cc3 .cc3-cards .cc3-cards-item .cc3-cards-item-text p:first-child {
+  font-size: 20px;
+  color: var(--color-black);
+  text-transform: capitalize;
+}
+
+.cc3 .cc3-cards .cc3-cards-item .cc3-cards-item-text p:last-child {
+  color: var(--color-gray);
+}
+
+.cc3 .cc3-cards .cc3-cards-item--middle .cc3-cards-item-icon {
+ transform: scale(1.2);
+ background-color: var(--bg-primary-dark);
+ margin-bottom: 20px;
+}
+
+.cc3 .cc3-cards .cc3-cards-item .cc3-cards-item-icon:hover {
+  transform: scale(1.3);
 }
