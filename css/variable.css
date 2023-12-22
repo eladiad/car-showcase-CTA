@@ -1,16 +1,16 @@
 :root {
   /* Font colors */
-  --color-white: #fff;
-  --color-black: #000;
-  --color-primary: #1E80C1;
-  --color-primary-dark: #0f5e93;
-  --color-grey: #dfdfdf;
+  --color-white: #ffffff;
+  --color-black: #333333;
+  --color-primary: #D51635;
+  --color-primary-dark: #B2122F;
+  --color-grey: #5c5c5c;
 
   /* Background colors */
-  --bg-white: #fff;
-  --bg-black: #000;
-  --bg-primary: #1E80C1;
-  --bg-primary-dark: #0f5e93;
-  --bg-grey: #dfdfdf;
-  --bg-drop-shadow: #7a7a7a38;
+  --bg-white: #ffffff;
+  --bg-black: #333333;
+  --bg-primary: #D51635;
+  --bg-primary-dark: #B2122F;
+  --bg-grey: #ebebeb;
+  --bg-drop-shadow: rgba(58, 58, 58, 0.2);
 }
