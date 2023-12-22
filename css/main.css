@@ -39,10 +39,12 @@ body {
     top: 0%;
     transform: scale(0) translate(-50px, -50%) rotate(-80deg);
   }
+
   70% {
     top: 50%;
     transform: scale(0) translate(-50px, -50%) rotate(0deg);
   }
+
   100% {
     top: 50%;
     transform: scale(1) translate(-50px, -50%) rotate(45deg);
@@ -55,6 +57,11 @@ body {
 #home h1 b {
   color: var(--color-primary);
   position: relative;
+}
+#home h1 b.home-overlay--b {
+  background-color: var(--bg-white);
+  padding: 10px;
+  border-radius: 4px;
 }
 
 #home h1 b::after {
@@ -82,6 +89,7 @@ body {
   0% {
     transform: translateX(1000px);
   }
+
   100% {
     transform: translateX(0);
   }
@@ -96,10 +104,12 @@ body {
   width: 100%;
   transition: transform 0.2s ease, filter 0.2s ease;
 }
+
 #car-logos img.car-logo:hover {
   transform: scale(1.1);
   filter: drop-shadow(2mm -3mm 1mm var(--bg-primary-dark));
 }
+
 #car-logos h3 {
   color: var(--color-white);
   text-transform: uppercase;
@@ -149,6 +159,13 @@ body {
   border-radius: 20px;
   box-shadow: var(--bs-box-shadow);
   transition: transform 500ms;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cc3 .cc3-cards .cc3-cards-item .cc3-cards-item-icon i {
+  font-size: 40px;
 }
 
 .cc3 .cc3-cards .cc3-cards-item .cc3-cards-item-text {
@@ -173,6 +190,10 @@ body {
   transform: scale(1.2);
   background-color: var(--bg-primary-dark);
   margin-bottom: 20px;
+}
+
+.cc3 .cc3-cards .cc3-cards-item--middle .cc3-cards-item-icon i {
+  color: var(--color-white);
 }
 
 .cc3 .cc3-cards .cc3-cards-item .cc3-cards-item-icon:hover {
@@ -206,31 +227,39 @@ body {
 .car-list ul {
   margin: 0 0 0 30px;
 }
+
 .car-list ul li {
   list-style: none;
   padding: 10px;
   border-radius: 5px;
   transition: all 300ms;
 }
+
 .car-list ul li:nth-child(3n) {
   background-color: var(--bg-primary);
 }
+
 .car-list ul li:nth-child(3n) .c-gray {
   color: var(--color-white);
 }
+
 .car-list ul li:nth-child(3n) h5 {
   color: var(--color-white);
 }
+
 .car-list ul li:not(:last-child) {
   margin-bottom: 10px;
 }
+
 .c-gray {
   color: lightgray;
 }
+
 .car-list ul li:hover {
   background-color: var(--bg-primary);
   margin-left: -30px;
 }
+
 .car-list ul li:hover .c-gray {
   color: var(--color-white);
 }
