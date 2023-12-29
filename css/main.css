@@ -338,7 +338,19 @@ body {
   justify-content: center;
   align-items: center;
 }
-.more-btn  a{
+.more-btn a {
   color: var(--color-white);
   text-decoration: none;
+}
+
+footer {
+  background-color: var(--bg-primary);
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer p {
+  margin: 0;
 }
